@@ -1,6 +1,6 @@
 all: build  
 
-build: build-imageserver build-chunkmaster build-chunktool build-chunkserver build-speedytool
+build: build-chunkmaster build-chunktool build-chunkserver
 
 build-imageserver:
 	go build -o bin/imageserver ./cmd/imageserver
